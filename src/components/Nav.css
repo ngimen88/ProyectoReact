@@ -1,0 +1,62 @@
+.nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    color: #fff;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: color 0.5s ease-in-out;
+}
+
+.nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.nav .menu {
+    display: flex;
+}
+
+.nav .menu a {
+    margin-right: 20px;
+}
+
+
+
+.nav a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-logo {
+    height: 40px;
+    margin-right: 950px;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.nav-logo:hover {
+    animation: zoom 0.5s ease-in-out;
+}

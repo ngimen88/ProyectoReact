@@ -1,0 +1,35 @@
+.cart {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.delete-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .delete-button svg {
+    fill: #ff0000;
+    width: 24px;
+    height: 24px;
+  }
+  
